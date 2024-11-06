@@ -35,6 +35,7 @@
 		928B2EE22C99641900E5A58A /* MockMealRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B2EC62C98EBCB00E5A58A /* MockMealRepository.swift */; };
 		928B2EEC2C99693C00E5A58A /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B2EEB2C99693C00E5A58A /* ImageCache.swift */; };
 		928B2EEF2C996E4400E5A58A /*  RoundedCornerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B2EEE2C996E4400E5A58A /*  RoundedCornerModifier.swift */; };
+		928B2EF12CA4861200E5A58A /* RoughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B2EF02CA4861200E5A58A /* RoughView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		928B2EEA2C99684B00E5A58A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		928B2EEB2C99693C00E5A58A /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		928B2EEE2C996E4400E5A58A /*  RoundedCornerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " RoundedCornerModifier.swift"; sourceTree = "<group>"; };
+		928B2EF02CA4861200E5A58A /* RoughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoughView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				928B2EC22C98BB9D00E5A58A /* MealDetailView.swift */,
 				928B2EBE2C980EA800E5A58A /* MealDetailViewModel.swift */,
 				928B2EC02C980EC400E5A58A /* MealCardView.swift */,
+				928B2EF02CA4861200E5A58A /* RoughView.swift */,
 			);
 			path = MealDetails;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				928B2EC32C98BB9D00E5A58A /* MealDetailView.swift in Sources */,
+				928B2EF12CA4861200E5A58A /* RoughView.swift in Sources */,
 				928B2EEC2C99693C00E5A58A /* ImageCache.swift in Sources */,
 				928B2EC12C980EC400E5A58A /* MealCardView.swift in Sources */,
 				928B2ECC2C9951C200E5A58A /* MockJSONHelper.swift in Sources */,

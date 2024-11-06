@@ -4,6 +4,7 @@
 //
 //  Created by Ankur Chauhan on 9/16/24.
 //
+//https://developer.apple.com/documentation/foundation/urlprotocol
 
 import Foundation
 
@@ -13,7 +14,7 @@ class MockURLProtocol: URLProtocol {
     static var mockData: Data?
     static var mockError: Error?
     
-    // This method determines whether this protocol can handle the given request
+    // This method determines whether this protocol can handle the given request, will return true to handle all request
     override class func canInit(with request: URLRequest) -> Bool {
         return true
     }
